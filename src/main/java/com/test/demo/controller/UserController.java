@@ -32,8 +32,10 @@ public class UserController {
 	public String hello(){
 
 		System.out.println(beanValue.toString()+"  ");
-		return "hhh";
 
+		System.out.println("修改第一次");
+
+		return "hhh";
 	}
 
 
